@@ -13,5 +13,9 @@ export const projects = [
 export const TimeLineData = [
   { year: 2017, text: 'Graduated High School', },
   { year: 2021, text: 'Graduated from Northwestern University McCormick School of Engineering', },
-  { year: 2021, text: 'Started working as Networking DevOps Analyst at Citi', }
+  { year: 2021, text: 'Started working as a Networking DevOps Analyst at Citi', }
+];
+
+export const accomplishments = [
+  { number: 2016, text: 'Segal Design Institute: Best Design Award'}
 ];

@@ -3,9 +3,7 @@ import React from 'react';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
-const data = [
-  { number: 2016, text: 'Segal Design Award'}
-];
+import {accomplishments} from '../../constants/constants';
 
 const Acomplishments = () => (
   <Section>

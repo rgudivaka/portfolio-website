@@ -12,7 +12,7 @@ const Hero = (props) => (
         My Name is Rishi
       </SectionTitle>
       <SectionText>
-        I am a recent Northwestern University Computer Science and economics graduate aspiring to become a fullstack blockchain developer.  
+        I am a recent Northwestern University Computer Science and economics graduate aspiring to become a fullstack developer.  
       </SectionText>
       <Button onClick={() => window.location = 'https://www.linkedin.com/in/rishi-g-74ab97124'} >Learn More</Button>
     </LeftSection>
