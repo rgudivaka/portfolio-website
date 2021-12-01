@@ -18,7 +18,6 @@ const Footer = () => {
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
-          <Slogan>Closing Message.</Slogan>
       <SocialContainer>
           <SocialIcons href="https://github.com/rgudivaka">
           <AiFillGithub size="3rem" />

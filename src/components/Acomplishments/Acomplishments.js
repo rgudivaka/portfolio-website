@@ -9,7 +9,7 @@ const Acomplishments = () => (
   <Section>
     <SectionTitle>Personal Accomplishments</SectionTitle>
     <Boxes>
-      {data.map((card, index) => (
+      {accomplishments.map((card, index) => (
         <Box key = {index}>
           <BoxNum>{card.number}</BoxNum>
           <BoxText>{card.text}</BoxText>

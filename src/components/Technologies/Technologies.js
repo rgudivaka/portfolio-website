@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiOutlineSketch } from 'react-icons/ai';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
@@ -38,7 +39,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <AiOutlineSketch size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>

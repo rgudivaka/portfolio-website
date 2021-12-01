@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
+import { SocialIconsContainer } from "../Footer/FooterStyles";
 
 import {
   Container,
@@ -40,12 +41,14 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
+      <SocialIconsContainer>
       <SocialIcons href="https://github.com/rgudivaka">
         <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://linkedin.com/in/rishi-g-74ab97124">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
+      </SocialIconsContainer>
     </Div3>
   </Container>
 );

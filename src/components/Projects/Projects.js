@@ -16,6 +16,7 @@ const Projects = () => (
             <HeaderThree title>{title}</HeaderThree>
           <Hr />
           <CardInfo>{description}</CardInfo>
+          <Hr />
           <div>
             <TitleContent>Stack</TitleContent>
             <TagList>
