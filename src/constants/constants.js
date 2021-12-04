@@ -15,6 +15,6 @@ export const TimeLineData = [
   { year: 2021, text: 'Started working as a Networking DevOps Analyst at Citi', }
 ];
 
-export const accomplishments = [
-  { number: 2016, text: 'Segal Institute Design Award'}
+export const proficiencies = [
+  { icon: '<DiReact size="3rem" />', text: 'Segal Institute Design Award'}
 ];
